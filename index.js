@@ -26,8 +26,10 @@ $(function () {
             names += $(elm).val() + '、';
         })
         names = names.slice(0, -1);
+        var tel = $('input[name="tel"]').val();
+        var text = $('input[name="text"]').val();
 
-        var msg = `希望日：${date}\n人数：${number}\n氏名：${names}`;
+        var msg = `希望日：${date}\n人数：${number}\n氏名：${names}\n電話番号：${tel}\n備考：${text}`;
         sendText(msg);
 
         return false;
