@@ -19,6 +19,13 @@ $(function () {
             dateFormat: 'yy/mm/dd',
         });
     });
+    
+    // タイム
+    $(function () {
+        $('input[name="time01"]').timepicker({
+            timeFormat: 'HH:nn',
+        });
+    });
 
     // 参加人数分の氏名欄を生成
     $('#form-number').click(function () {
