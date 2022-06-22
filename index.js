@@ -1,7 +1,7 @@
 $(function () {
     // カレンダー
     $(function () {
-        $('input[name="date00"]').datepicker({
+        $('input[name="date01"]').datepicker({
             dateFormat: 'yy/mm/dd',
         });
     });
