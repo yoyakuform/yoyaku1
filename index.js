@@ -29,7 +29,7 @@ $(function () {
         var tel = $('input[name="tel"]').val();
         var text = $('input[name="text"]').val();
 
-        var msg = `希望日：${date}\n人数：${number}\n氏名：${names}\n電話番号：${tel}\n備考：${text}`;
+        var msg = `●希望日：${date}\n●人数：${number}\n●氏名：${names}\n●電話番号：${tel}\n●備考：${text}`;
         sendText(msg);
 
         return false;
