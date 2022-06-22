@@ -1,7 +1,21 @@
 $(function () {
     // カレンダー
     $(function () {
-        $('input[name="date00"]').datepicker({
+        $('input[name="date01"]').datepicker({
+            dateFormat: 'yy/mm/dd',
+        });
+    });
+    
+    // カレンダー
+    $(function () {
+        $('input[name="date02"]').datepicker({
+            dateFormat: 'yy/mm/dd',
+        });
+    });
+    
+    // カレンダー
+    $(function () {
+        $('input[name="date03"]').datepicker({
             dateFormat: 'yy/mm/dd',
         });
     });
