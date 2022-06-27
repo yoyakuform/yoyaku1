@@ -3,6 +3,9 @@ $(function () {
     $(function () {
         $('input[name="date01"]').datepicker({
             dateFormat: 'yy/mm/dd',
+            changeMonth: true,
+            changeYear: true,
+            yearRange: '-100:+0',
         });
     });
     
@@ -10,6 +13,9 @@ $(function () {
     $(function () {
         $('input[name="date02"]').datepicker({
             dateFormat: 'yy/mm/dd',
+            changeMonth: true,
+            changeYear: true,
+            yearRange: '-100:+0',
         });
     });
     
@@ -17,6 +23,9 @@ $(function () {
     $(function () {
         $('input[name="date03"]').datepicker({
             dateFormat: 'yy/mm/dd',
+            changeMonth: true,
+            changeYear: true,
+            yearRange: '-100:+0',
         });
     });
     
